@@ -23,6 +23,8 @@
 学习技术，还是偏向于从全局到局部，再深入到细节，这样才不会迷失。
 要理解设计模式，首先要理解抽象，再理解设计原则，然后结合项目经验找到软件设计的痛点，最后深入设计模式细节。
 
+另外，设计模式是演变过来的，不是出生那天就固定了，所以了解模式的演变对理解设计模式更有意义。
+
 ## 目录
 
 [创建型设计模式](https://github.com/xuwening/designPattern/tree/master/designPattern/src/com/designPattern/creational)
