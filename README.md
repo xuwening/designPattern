@@ -25,7 +25,7 @@
 
 ## 目录
 
-创建型设计模式
+[创建型设计模式](https://github.com/xuwening/designPattern/tree/master/designPattern/src/com/designPattern/creational)
 
 - [抽象工厂](https://github.com/xuwening/designPattern/tree/master/designPattern/src/com/designPattern/creational/abstractFactory)
 
@@ -37,7 +37,7 @@
 
 - [单件](https://github.com/xuwening/designPattern/tree/master/designPattern/src/com/designPattern/creational/Singleton)
 
-结构型设计模式
+[结构型设计模式](https://github.com/xuwening/designPattern/tree/master/designPattern/src/com/designPattern/structual)
 
 - [适配器](https://github.com/xuwening/designPattern/tree/master/designPattern/src/com/designPattern/structual/adapter)
 
@@ -53,7 +53,7 @@
 
 - [代理](https://github.com/xuwening/designPattern/tree/master/designPattern/src/com/designPattern/structual/proxy)
 
-行为型设计模式
+[行为型设计模式](https://github.com/xuwening/designPattern/tree/master/designPattern/src/com/designPattern/behavioral)
 
 - [责任链](https://github.com/xuwening/designPattern/tree/master/designPattern/src/com/designPattern/behavioral/chainOfResponsibility)
 
