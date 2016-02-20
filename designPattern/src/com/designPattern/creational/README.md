@@ -1,5 +1,18 @@
 # 创建型模式
 
+## 目录
+
+- [抽象工厂](https://github.com/xuwening/designPattern/tree/master/designPattern/src/com/designPattern/creational/abstractFactory)
+
+- [生成器](https://github.com/xuwening/designPattern/tree/master/designPattern/src/com/designPattern/creational/Builder)
+
+- [工厂方法](https://github.com/xuwening/designPattern/tree/master/designPattern/src/com/designPattern/creational/factoryMethod)
+
+- [原型](https://github.com/xuwening/designPattern/tree/master/designPattern/src/com/designPattern/creational/Prototype)
+
+- [单件](https://github.com/xuwening/designPattern/tree/master/designPattern/src/com/designPattern/creational/Singleton)
+
+
 ## 解决什么问题
 
 创建型模式是用来解决 new 一个对象的硬编码问题。创建一个对象依赖接口而非实现。
