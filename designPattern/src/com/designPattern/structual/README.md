@@ -1,6 +1,6 @@
-# 结构型模式
+# 结构型
 
-## 模式
+## 具体模式
 
 - [适配器](https://github.com/xuwening/designPattern/tree/master/designPattern/src/com/designPattern/structual/adapter)
 

@@ -1,6 +1,6 @@
-# 创建型模式
+# 创建型
 
-## 目录
+## 具体模式
 
 - [抽象工厂](https://github.com/xuwening/designPattern/tree/master/designPattern/src/com/designPattern/creational/abstractFactory)
 

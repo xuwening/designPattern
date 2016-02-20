@@ -1,6 +1,6 @@
-# 行为型模式
+# 行为型
 
-## 目录
+## 具体模式
 
 - [责任链](https://github.com/xuwening/designPattern/tree/master/designPattern/src/com/designPattern/behavioral/chainOfResponsibility)
 
