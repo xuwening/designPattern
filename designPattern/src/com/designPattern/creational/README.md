@@ -2,15 +2,15 @@
 
 ## 具体模式
 
-- [抽象工厂](https://github.com/xuwening/designPattern/tree/master/designPattern/src/com/designPattern/creational/abstractFactory)
+- [抽象工厂](./abstractFactory)
 
-- [生成器](https://github.com/xuwening/designPattern/tree/master/designPattern/src/com/designPattern/creational/Builder)
+- [生成器](./Builder)
 
-- [工厂方法](https://github.com/xuwening/designPattern/tree/master/designPattern/src/com/designPattern/creational/factoryMethod)
+- [工厂方法](./factoryMethod)
 
-- [原型](https://github.com/xuwening/designPattern/tree/master/designPattern/src/com/designPattern/creational/Prototype)
+- [原型](./Prototype)
 
-- [单件](https://github.com/xuwening/designPattern/tree/master/designPattern/src/com/designPattern/creational/Singleton)
+- [单件](./Singleton)
 
 
 ## 解决什么问题

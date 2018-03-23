@@ -14,6 +14,47 @@
 
 ![](../../../../../img/singleton.png)
 
+代码很简单，将构造函数私有化，不让`new`一个对象，只能通过指定的方法获取全局实例。
+
+```java
+public class Singleton {
+
+    private Singleton() {
+    }
+
+    private static final Singleton s_instance = new Singleton();
+    
+    public Singleton sharedInstance() {
+        return s_instance;
+    }
+}
+```
+
+静态成员的方式有个小问题：`如果程序中没有使用该类，静态成员依然会被创建，带来额外的内存开销`。
+
+为了减少这种副作用，应该在使用该对象时再创建实例：
+
+```java
+public class Singleton {
+
+    private Singleton() {
+    }
+
+    private static Singleton _instance;
+    public Singleton sharedInstance() {
+
+        if (_instance == null) {
+            _instance = new Singleton();
+        }
+
+        return _instance;
+    }
+}
+```
+
+现在好多了，不需要的时候不会占用内存，多次使用也保持一份实例。不过还是有例外，如`多线程同时调用了sharedInstance，首次创建对象时可能会创建多份`。虽然只有一次时机，出现的概率几乎可以忽略不计，但缺陷就是缺陷。弥补的方式也简单，对该方法加锁就可以了（加锁要考虑性能开销，采用较小的加锁机制）。
+
+
 ## 总结
 
 单例模式是最简单的一个模式了，需要关心的只有两点：一、构造器私有化；二、线程安全问题。

@@ -2,27 +2,27 @@
 
 ## 具体模式
 
-- [责任链](https://github.com/xuwening/designPattern/tree/master/designPattern/src/com/designPattern/behavioral/chainOfResponsibility)
+- [责任链](./chainOfResponsibility)
 
-- [命令](https://github.com/xuwening/designPattern/tree/master/designPattern/src/com/designPattern/behavioral/command)
+- [命令](./command)
 
-- [解释器](https://github.com/xuwening/designPattern/tree/master/designPattern/src/com/designPattern/behavioral/interpreter)
+- [解释器](./interpreter)
 
-- [迭代器](https://github.com/xuwening/designPattern/tree/master/designPattern/src/com/designPattern/behavioral/iterator)
+- [迭代器](./iterator)
 
-- [中介者](https://github.com/xuwening/designPattern/tree/master/designPattern/src/com/designPattern/behavioral/mediator)
+- [中介者](./mediator)
 
-- [备忘录](https://github.com/xuwening/designPattern/tree/master/designPattern/src/com/designPattern/behavioral/memento)
+- [备忘录](./memento)
 
-- [观察者](https://github.com/xuwening/designPattern/tree/master/designPattern/src/com/designPattern/behavioral/observer)
+- [观察者](./observer)
 
-- [状态](https://github.com/xuwening/designPattern/tree/master/designPattern/src/com/designPattern/behavioral/state)
+- [状态](./state)
 
-- [策略](https://github.com/xuwening/designPattern/tree/master/designPattern/src/com/designPattern/behavioral/strategy)
+- [策略](./strategy)
 
-- [模板方法](https://github.com/xuwening/designPattern/tree/master/designPattern/src/com/designPattern/behavioral/templeteMethod)
+- [模板方法](./templeteMethod)
 
-- [访问者](https://github.com/xuwening/designPattern/tree/master/designPattern/src/com/designPattern/behavioral/visitor)
+- [访问者](./visitor)
 
 
 ## 解决什么问题

@@ -2,19 +2,19 @@
 
 ## 具体模式
 
-- [适配器](https://github.com/xuwening/designPattern/tree/master/designPattern/src/com/designPattern/structual/adapter)
+- [适配器](./adapter)
 
-- [桥接](https://github.com/xuwening/designPattern/tree/master/designPattern/src/com/designPattern/structual/bridge)
+- [桥接](./bridge)
 
-- [组合](https://github.com/xuwening/designPattern/tree/master/designPattern/src/com/designPattern/structual/composite)
+- [组合](./composite)
 
-- [装饰](https://github.com/xuwening/designPattern/tree/master/designPattern/src/com/designPattern/structual/decorator)
+- [装饰](./decorator)
 
-- [外观](https://github.com/xuwening/designPattern/tree/master/designPattern/src/com/designPattern/structual/facade)
+- [外观](./facade)
 
-- [享元](https://github.com/xuwening/designPattern/tree/master/designPattern/src/com/designPattern/structual/flyweight)
+- [享元](./flyweight)
 
-- [代理](https://github.com/xuwening/designPattern/tree/master/designPattern/src/com/designPattern/structual/proxy)
+- [代理](./proxy)
 
 
 ## 解决什么问题
