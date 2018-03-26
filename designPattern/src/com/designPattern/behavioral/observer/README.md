@@ -8,6 +8,28 @@
 
 ![](../../../../../img/observer.png)
 
+
+如何对订阅者进行统一管理？
+
+定义一个订阅者的接口标准，想要订阅，就必须遵循这个标准：
+
+```java
+public interface IObserver {
+    public void update(Subject data);  //通过data获取订阅信息
+}
+```
+
+然后，将所有订阅者保存起来，等有消息时通知他们：
+
+```java
+//保存所有订阅者
+ArrayList<IObserver> observers;
+//通知订阅者有新消息
+for (IObserver observer : observers) {
+    observer.update(data);
+}
+```
+
 ## 总结
 
 观察者模式就是发布和订阅，简单来讲，就是你在网上订阅了某人的文章，或关注某人的微博，当有新的文章或微博发布时，你就收到了更新通知，然后获取信息并阅读。
