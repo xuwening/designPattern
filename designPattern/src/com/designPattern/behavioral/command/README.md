@@ -11,6 +11,55 @@
 ![](../../../../../img/command.png)
 
 
+命令模式本身不复杂，只是需要和上下文进行依赖操作，所以看着比较复杂。为简单起见，这里不提依赖操作（依赖相关看demo示例）：
+
+假设我们要实现菜单项操作，首先定义一个统一的接口，每个菜单都绑定一个具体的命令，这样用户点击菜单时，统一调用命令的execute方法：
+
+```java
+public interface ICommand {
+
+    public void execute();
+}
+```
+
+```java
+//定义一个关灯的操作
+public class LightOffCommand implements ICommand {
+
+    //省略构造、初始化操作
+    //...
+
+    @Override
+    public void execute() {
+
+        light.lightOff();
+    }
+}
+```
+
+```java
+//定义一个开灯的操作
+public class LightOnCommand implements ICommand {
+
+    //省略构造、初始化操作
+    //...
+
+    @Override
+    public void execute() {
+
+        light.lightOn();
+    }
+}
+```
+
+假设我们已经把命令和具体菜单项绑定（开灯、关灯），执行用户命令时，可以通用处理：
+
+```java
+void onUserAction(ICommand command) {
+    command.execute();
+}
+```
+
 ## 总结
 
 命令模式只有一个execute()方法，容易给人造成简单的假象。说起来其实也容易，将命令这种行为从逻辑中抽离出来，单独形成对象，并抽象为接口可以统一调度。
