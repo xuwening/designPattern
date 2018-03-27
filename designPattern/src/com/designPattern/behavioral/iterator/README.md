@@ -8,6 +8,27 @@
 
 ![](../../../../../img/iterator.png)
 
+
+定义一个公共接口：
+
+```java
+public interface Iterator {
+
+    public void first();
+    public void next();
+    public boolean isDone();
+    public Object currentItem();
+}
+```
+
+然后大家都遵循该接口，并实现接口中的方法，使用者就可以通用调用：
+
+```java
+ for (iter.first(); !iter.isDone(); iter.next()) {
+     //...
+ }
+```
+
 ## 总结
 
 这个模式很好理解，因为日常编程中随处遇到，最常见的就是 foreach，凡事面向对象语言基本都内部支持聚合迭代。
