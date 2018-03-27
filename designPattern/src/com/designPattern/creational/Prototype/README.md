@@ -17,11 +17,12 @@
 
 你new一个我，要一模一样哦：
 
-![](../../../../../otherImg/new.png)
+![](../../../../../otherImg/clone.png)
 
 你clone一个我，要一模一样哦：
 
-![](../../../../../otherImg/clone.png)
+![](../../../../../otherImg/new.png)
+
 
 
 
