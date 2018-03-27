@@ -18,7 +18,7 @@
 
 中介者模式解决的方式：
 
-![](../../../../../otherImg/mediator.png)
+![](../../../../../otherImg/mediator.jpeg)
 
 ## 总结
 
